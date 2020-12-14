@@ -9,8 +9,6 @@ import ru.qatools.properties.Resource;
 public class ApplicationConfigReader 
 {
 
-	//TC001_GET_Request df = new TC001_GET_Request();
-
 	public ApplicationConfigReader()
 	{
 		PropertyLoader.newInstance().populate(this);

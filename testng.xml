@@ -6,7 +6,7 @@
 	<test name="TestStoneEdgeTrader">
 
 		<classes>
-			<class name="restapi.TC001_GET_Request" />
+			<class name="restapi.TestResponseElemetsInXMLFormat" />
 		</classes>
 	</test> <!-- Test -->
 
