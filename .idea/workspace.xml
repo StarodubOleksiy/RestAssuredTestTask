@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e145b717-417f-4e62-8ea6-7907e8ee20b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" afterPath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -390,7 +389,7 @@
       <workItem from="1607904701702" duration="628000" />
       <workItem from="1607954208634" duration="676000" />
       <workItem from="1607970979019" duration="2752000" />
-      <workItem from="1607976819054" duration="6082000" />
+      <workItem from="1607976819054" duration="6555000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit. Add comments">
       <created>1607987233034</created>
@@ -406,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607987889459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Second commit. Add comments">
+      <created>1607988553012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607988553012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -442,7 +448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10977000" />
+    <option name="totallyTimeSpent" value="11450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -715,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
