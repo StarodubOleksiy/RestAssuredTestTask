@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e145b717-417f-4e62-8ea6-7907e8ee20b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/restapi/TC001_GET_Request$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/restapi/TC001_GET_Request.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/restapi/TC001_GET_Request.java" afterPath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/restapi/ApplicationConfigReader.class" afterPath="$PROJECT_DIR$/target/classes/restapi/ApplicationConfigReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java" afterPath="$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" afterPath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ApplicationConfig.properties" afterPath="$PROJECT_DIR$/target/classes/ApplicationConfig.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +29,7 @@
       <file leaf-file-name="ApplicationConfigReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="85">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -66,8 +59,8 @@
       <file leaf-file-name="TestResponseElemetsInXMLFormat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="524">
+              <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,8 +87,8 @@
         <option value="$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/restapi/TC001_GET_Request.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
       </list>
     </option>
   </component>
@@ -438,17 +431,19 @@
       <workItem from="1607904701702" duration="628000" />
       <workItem from="1607954208634" duration="676000" />
       <workItem from="1607970979019" duration="2752000" />
-      <workItem from="1607976819054" duration="4740000" />
+      <workItem from="1607976819054" duration="5418000" />
     </task>
+    <task id="LOCAL-00001" summary="Second commit. Add comments">
+      <created>1607987233034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607987233034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.14 at 15h 57m 09s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.14 at 15h 57m 19s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.14 at 21h 09m 31s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -459,6 +454,12 @@
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 04m 05s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 07m 37s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 16m 39s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TC001_GET_Request - 2020.12.14 at 02h 08m 38s.xml">
@@ -475,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9635000" />
+    <option name="totallyTimeSpent" value="10313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -515,6 +516,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit. Add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit. Add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -735,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="85">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -743,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="524">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

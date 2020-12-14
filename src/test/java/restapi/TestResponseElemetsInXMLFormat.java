@@ -61,13 +61,25 @@ public class TestResponseElemetsInXMLFormat {
                 = new TypeReference<HashMap<String, Object>>() {
         }; //Creating instance of class that help extract response elements which are in XML format to hashmap container
         HashMap<String, Object> o = mapper.readValue(response.getBody().asString(), typeRef); //Extract response elements in XML format to hashmap container
-        Assert.assertEquals(new Boolean(o.get("enabled").toString()).booleanValue(), true); //Verify if <<enabled>> element is Boolean type
-        Assert.assertEquals(OffsetDateTime.parse(o.get("created").toString()).getClass().getCanonicalName(), OffsetDateTime.class.getCanonicalName()); //Verify if <<created>> element is iso8601-datetime type
-        //If element <<created>> is not iso8601-datetime format it will be java.time.format.DateTimeParseException
-        Assert.assertEquals(o.get("product").getClass().getCanonicalName(), String.class.getCanonicalName());  //Verify if <<product>> element is String type
-        Assert.assertEquals(o.get("parent").getClass().getCanonicalName(), String.class.getCanonicalName());  //Verify if <<parent>> element is String type
-        Assert.assertEquals(new Boolean(o.get("subscribed").toString()).booleanValue(), true);//Verify if <<subscribed>> element is Boolean type
+        Assert.assertEquals(new Boolean(o.get("enabled").toString()).booleanValue(), true); //Verify if <<enabled>> type of element is Boolean
+        Assert.assertEquals(OffsetDateTime.parse(o.get("created").toString()).getClass().getCanonicalName(), OffsetDateTime.class.getCanonicalName()); //Verify if <<created>>type of element is iso8601-datetime
+        //If element <<created>> has format not iso8601-datetime  it will be java.time.format.DateTimeParseException
+        Assert.assertEquals(o.get("product").getClass().getCanonicalName(), String.class.getCanonicalName());  //Verify if <<product>> type of element is String
+        Assert.assertEquals(o.get("parent").getClass().getCanonicalName(), String.class.getCanonicalName());  //Verify if <<parent>> type of element is String
+        Assert.assertEquals(new Boolean(o.get("subscribed").toString()).booleanValue(), true);//Verify if <<subscribed>> type of element is Boolean
     }
+
+    /*
+    The response is
+    <user>
+    <enabled>true</enabled>
+    <created>2019-02-28T13:07:49Z</created>
+    <product>7dwqnq-5cvrcm-1z3ehj</product>
+    <parent>80ltks-yhfls5-24zyf2</parent>
+    <subscribed>true</subscribed>
+    </user>
+    <!-- End of Document 2020-12-14T23:16:40Z -->
+     */
 
 
 }
