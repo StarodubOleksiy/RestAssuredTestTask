@@ -3,7 +3,7 @@
 <suite name="Glady AutF_AllureParallel" thread-count="1" parallel="methods"
 	data-provider-thread-count="1">
 
-	<test name="TestStoneEdgeTrader">
+	<test name="TestResponseElements">
 
 		<classes>
 			<class name="restapi.TestResponseElemetsInXMLFormat" />

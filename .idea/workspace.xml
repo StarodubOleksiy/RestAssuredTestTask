@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e145b717-417f-4e62-8ea6-7907e8ee20b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestResponseElemetsInXMLFormat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResponseElemetsInXMLFormat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="299">
+              <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,12 +63,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/restapi/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/restapi/App.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/restapi/TC001_GET_Request.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties" />
         <option value="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -78,9 +100,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -389,7 +411,9 @@
       <workItem from="1607904701702" duration="628000" />
       <workItem from="1607954208634" duration="676000" />
       <workItem from="1607970979019" duration="2752000" />
-      <workItem from="1607976819054" duration="6555000" />
+      <workItem from="1607976819054" duration="7203000" />
+      <workItem from="1608059018888" duration="48000" />
+      <workItem from="1608059157787" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit. Add comments">
       <created>1607987233034</created>
@@ -412,26 +436,27 @@
       <option name="project" value="LOCAL" />
       <updated>1607988553012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second commit. Add comments">
+      <created>1607989024058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607989024058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.14 at 21h 09m 31s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 00h 55m 07s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 00h 56m 18s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 04m 05s.xml">
-      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 07m 37s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 16m 39s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 01h 48m 21s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 21h 12m 45s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TC001_GET_Request - 2020.12.14 at 02h 08m 38s.xml">
@@ -446,9 +471,15 @@
     <history-entry file="TC001_GET_Request - 2020.12.14 at 20h 36m 57s.xml">
       <configuration name="TC001_GET_Request" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestResponseElemetsInXMLFormat - 2020.12.15 at 21h 09m 10s.xml">
+      <configuration name="TestResponseElemetsInXMLFormat" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestResponseElemetsInXMLFormat - 2020.12.15 at 21h 12m 33s.xml">
+      <configuration name="TestResponseElemetsInXMLFormat" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11450000" />
+    <option name="totallyTimeSpent" value="12706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -500,6 +531,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
           <folding />
@@ -518,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,19 +749,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restapi/App.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/restapi/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,21 +764,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
