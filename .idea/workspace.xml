@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e145b717-417f-4e62-8ea6-7907e8ee20b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" afterPath="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,21 @@
       <file leaf-file-name="TestResponseElemetsInXMLFormat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+            <state relative-caret-position="265">
+              <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationConfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,9 +60,9 @@
         <option value="$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/restapi/TC001_GET_Request.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java" />
       </list>
     </option>
   </component>
@@ -94,8 +105,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,8 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +422,8 @@
       <workItem from="1608060237206" duration="143000" />
       <workItem from="1608060469728" duration="1327000" />
       <workItem from="1608062112053" duration="32000" />
-      <workItem from="1608062171969" duration="6000" />
+      <workItem from="1608062171969" duration="196000" />
+      <workItem from="1628167864099" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit. Add comments">
       <created>1607987233034</created>
@@ -462,27 +474,34 @@
       <option name="project" value="LOCAL" />
       <updated>1608062128904</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Third commit. Add possibility tu run tests using maven and comand line.">
+      <created>1608062182145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608062182145</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 21h 25m 19s.xml">
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 51m 35s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 21h 29m 38s.xml">
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 51m 46s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 21h 29m 46s.xml">
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 52m 29s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2020.12.15 at 21h 38m 52s.xml">
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 56m 02s.xml">
       <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC001_GET_Request - 2020.12.14 at 02h 08m 38s.xml">
-      <configuration name="TC001_GET_Request" configurationId="TestNG" />
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 56m 10s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC001_GET_Request - 2020.12.14 at 20h 36m 39s.xml">
-      <configuration name="TC001_GET_Request" configurationId="TestNG" />
+    <history-entry file="C__REST_Assured_Test_Task_Test_Task_version_2_rest-api-tests_testng_xml - 2021.08.05 at 15h 58m 50s.xml">
+      <configuration name="C:/REST Assured Test Task/Test Task version 2/rest-api-tests/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TC001_GET_Request - 2020.12.14 at 20h 36m 48s.xml">
       <configuration name="TC001_GET_Request" configurationId="TestNG" />
@@ -498,19 +517,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14269000" />
+    <option name="totallyTimeSpent" value="14933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121527776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -527,7 +548,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -548,6 +568,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -816,13 +862,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restapi/App.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/restapi/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restapi/ApplicationConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -838,14 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -854,10 +885,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restapi/TestResponseElemetsInXMLFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="64" column="55" lean-forward="false" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

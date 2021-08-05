@@ -42,16 +42,16 @@ public class TestResponseElemetsInXMLFormat {
         response = httpRequest.request(Method.GET, reader.getGuid()); //get response data using http method GET
     }
 
-    @Test
+    @Test(priority=1)
     @TestCaseId("TC_Test_Response_Elements_001")
     @Description("Test to make sure that login is correct.")
     @Features("Response elements in XML format")
-    public void test1CorrectLogin() throws IOException {
+    public void test1CorrectLogin()  {
         Assert.assertEquals(response.getStatusCode(), 200);//Checking if sign in to get response elemets was successfull
     }
 
 
-    @Test
+    @Test(priority=2,dependsOnMethods = { "test1CorrectLogin" })
     @TestCaseId("TC_Test_Response_Elements_002")
     @Description("Test to verify if all elements in the response are good.")
     @Features("Response elements in XML format")
